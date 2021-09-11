@@ -1,5 +1,5 @@
 {
-  "name": "vue-advance",
+  "name": "Venus",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "core-js": "^2.6.5",
+    "element-ui": "^2.15.6",
     "mint-ui": "^2.2.13",
     "vue": "^2.6.10",
     "vue-router": "^3.0.6"

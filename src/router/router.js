@@ -1,12 +1,11 @@
-import Home from '../views/Home.vue'
 export default [{
         path: '/',
         name: 'home',
-        component: Home
+        component: () => import('@/views/Home.vue')
     },
     {
         path: '/about',
         name: 'about',
-        component: () => import('./views/About.vue')
+        component: () => import('@/views/About.vue')
     }
 ]
